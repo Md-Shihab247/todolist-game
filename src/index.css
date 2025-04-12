@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme{
+    --font-poppins: "Poppins", sans-serif;
+}
+
+.custom-scroll::-webkit-scrollbar{
+    width: 6px;
+  }
+
+.custom-scroll::-webkit-scrollbar-track{
+    background:  rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 8px #353434;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb{
+    /* background: #7100db; */
+    background: #5B21B6;
+    box-shadow: inset 0 0 5px #333;
+    border-radius: 20px;
+}
+
